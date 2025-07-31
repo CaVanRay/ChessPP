@@ -30,7 +30,7 @@ Classes:
       Moves
 
 First step is to get the logic of a chess game down. 
-  just a 8*8 matrix that holds the locations of each piece, and the logic system for how a chess game should proceed as well as legal/illegal moves.
+  just an 8*8 matrix that holds the locations of each piece, and the logic system for how a chess game should proceed as well as legal/illegal moves.
 
 Second step will be to attach some form of graphics so as to better understand what is happening.
 
