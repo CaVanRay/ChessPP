@@ -7,12 +7,12 @@ Classes:
   Game
   
   Board
-    [8*8}
+    [8*8} Matrix - This shouldnt be hard, I just need to figure out how to check for legal/illigal moves
     
   Piece
   
     [White/Black]Pawn[1-8]
-      Moves
+      Moves - [][]
       
     [White/Black]Rook[1-2]
       Moves
