@@ -36,11 +36,13 @@ void horizontal(const int& edges) {
 void vertical(const int& spaces, const int& column, const int& row) {
     std::cout << "|";
     for (int i = 0; i < spaces; i++) {
-        if(column == 0 && row == 1){
+        if (column == 0 && row == 1) {
             std::cout << "  X  |";
-        }else if(column == 6 && row == 1){
+        }
+        else if (column == 7 && row == 1) {
             std::cout << "  O  |";
-        }else{
+        }
+        else {
             std::cout << "     |";
         }
     }
@@ -60,7 +62,7 @@ int main()
             horizontal(boardSize);
         }
         std::cout << std::endl << std::endl;
-        std::cout << "Would you like another board? (Y/N)";
+        std::cout << "Would you like to play again? (Y/N)";
         std::cin >> cont;
     } while (cont == 'Y');
 
