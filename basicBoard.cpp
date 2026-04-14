@@ -41,13 +41,11 @@ void vertical(const int& spaces) {
     std::cout << std::endl;
 }
 
-int main(){
+int main()
+{
     char cont = 'Y';
     int boardSize = 8;
     do {
-        std::cout << "What size board? :";
-        std::cin >> boardSize;
-        std::cout << std::endl << std::endl;
         horizontal(boardSize);
         for (int s = 0; s < boardSize; s++) {
             for (int t = 0; t < 3; t++) {
