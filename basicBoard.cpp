@@ -9,6 +9,7 @@ will get an actually gui later after the logic is working
 #include <iostream>
 
 class piece {
+    Node* space;
 
 };
 
