@@ -11,6 +11,10 @@ will get an actually gui later after the logic is working
 class piece {
     Node* currentSpace;
 
+    void move(){
+        
+    }
+
 };
 
 struct Node {
@@ -19,8 +23,7 @@ struct Node {
     Node* down;
     Node* prev;
     Node* next;
-    int column;
-    char row;
+    int column, row;
     bool occupied;
     piece* occupant;
 
