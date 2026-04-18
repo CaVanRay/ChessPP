@@ -1,5 +1,6 @@
 /*
 Title: basicBoard.cpp
+Author: Cavan Ray Theiss
 */
 
 #include <iostream>
