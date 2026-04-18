@@ -16,7 +16,7 @@ void horizontalOutlines(const int& edges) {
     std::cout << std::endl;
 }
 
-void vertical(const int& spaces, const int& column, const int& row) {
+void spaces(const int& spaces, const int& column, const int& row) {
     std::cout << "|";
     for (int i = 0; i < spaces; i++) {
         if (column == 0 && row == 1) {
@@ -40,7 +40,7 @@ int main()
         horizontalOutlines(boardSize);
         for (int s = 0; s < boardSize; s++) {
             for (int t = 0; t < 3; t++) {
-                vertical(boardSize, s, t);
+                spaces(boardSize, s, t);
             }
             horizontalOutlines(boardSize);
         }
