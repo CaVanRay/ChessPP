@@ -8,7 +8,7 @@ will get an actually gui later after the logic is working
 
 #include <iostream>
 
-void horizontal(const int& edges) {
+void horizontalOutlines(const int& edges) {
     std::cout << "+";
     for (int i = 0; i < edges; i++) {
         std::cout << "-----+";
@@ -37,12 +37,12 @@ int main()
     char cont = 'Y';
     int boardSize = 8;
     do {
-        horizontal(boardSize);
+        horizontalOutlines(boardSize);
         for (int s = 0; s < boardSize; s++) {
             for (int t = 0; t < 3; t++) {
                 vertical(boardSize, s, t);
             }
-            horizontal(boardSize);
+            horizontalOutlines(boardSize);
         }
         std::cout << std::endl << std::endl;
         std::cout << "Would you like to play again? (Y/N)";
