@@ -4,6 +4,8 @@ Author: Cavan Ray Theiss\
 
 Notepad:
 Removing the peices and focusing on the board for now
+I want to figure out a way to keep track of the Red and Black squares
+without having to hard code every fucking space
 
 */
 
