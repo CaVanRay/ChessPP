@@ -1,9 +1,5 @@
 /*
-Just getting a basic board with pieces to work in the console
-
-this isn't even chess yet, just dots on a board
-
-will get an actually gui later after the logic is working
+Title: basicBoard.cpp
 */
 
 #include <iostream>
