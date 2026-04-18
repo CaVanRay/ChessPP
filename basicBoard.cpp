@@ -1,6 +1,10 @@
 /*
 Title: basicBoard.cpp
-Author: Cavan Ray Theiss
+Author: Cavan Ray Theiss\
+
+Notepad:
+
+
 */
 
 #include <iostream>
