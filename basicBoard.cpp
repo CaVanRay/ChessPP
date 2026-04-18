@@ -19,10 +19,10 @@ void horizontalOutlines(const int& edges) {
     std::cout << std::endl;
 }
 
-void spaces(const int& spaces) {
+void spaces(const int& spaces, bool evenLine) {
     std::cout << "|";
     for (int i = 0; i < spaces; i++) {
-
+        
     }
     std::cout << std::endl;
 }
@@ -31,11 +31,17 @@ int main()
 {
     char cont = 'Y';
     int boardSize = 8;
+    bool evenLine;
     do {
         horizontalOutlines(boardSize);
         for (int s = 0; s < boardSize; s++) {
             for (int t = 0; t < 3; t++) {
-                spaces(boardSize);
+                if(s % 2 == 0){
+                    evenLine = true;
+                }else{
+                    evenLine = false;
+                }
+                spaces(boardSize, evenLine);
             }
             horizontalOutlines(boardSize);
         }
