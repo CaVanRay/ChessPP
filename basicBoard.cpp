@@ -8,27 +8,6 @@ will get an actually gui later after the logic is working
 
 #include <iostream>
 
-class piece {
-    Node* currentSpace;
-
-    void move(){
-        
-    }
-
-};
-
-struct Node {
-
-    Node* up;
-    Node* down;
-    Node* prev;
-    Node* next;
-    int column, row;
-    bool occupied;
-    piece* occupant;
-
-};
-
 void horizontal(const int& edges) {
     std::cout << "+";
     for (int i = 0; i < edges; i++) {
