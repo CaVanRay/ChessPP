@@ -33,7 +33,8 @@ void spaces(const int& spaces, const int& rowInBoard, const int& rowInSpace) {
     for(int i = 0; i < spaces; i++){
 
         if(spaceIsRed){
-            
+            cout << "*****|";
+            spaceIsRed = false;
         }else{
             
         }
