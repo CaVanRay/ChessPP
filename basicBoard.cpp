@@ -20,13 +20,22 @@ void horizontalOutlines(const int& edges) {
 }
 
 void spaces(const int& spaces, const int& rowInBoard, const int& rowInSpace) {
+    
     bool spaceIsRed = true;
     std::cout << "|";
+    
+    if(rowInBoard % 2 == 0){
+        spaceIsRed = true;
+    }else{
+        spaceIsRed = false;
+    }
+    
     for(int i = 0; i < spaces; i++){
-        if(rowInBoard % 2 == 0){
-            spaceIsRed = true;
+
+        if(spaceIsRed){
+            
         }else{
-            spaceIsRed = false;
+            
         }
         
     }
