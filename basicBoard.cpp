@@ -36,7 +36,8 @@ void spaces(const int& spaces, const int& rowInBoard, const int& rowInSpace) {
             cout << "*****|";
             spaceIsRed = false;
         }else{
-            
+            cout << "     |";
+            spaceIsRed = true;
         }
         
     }
