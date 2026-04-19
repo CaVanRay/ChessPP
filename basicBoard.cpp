@@ -20,6 +20,7 @@ void horizontalOutlines(const int& edges) {
 }
 
 void spaces(const int& spaces, const int& rowInBoard, const int& rowInSpace) {
+    bool spaceIsRed = true;
     std::cout << "|";
     for(int i = 0; i < spaces; i++){
         
