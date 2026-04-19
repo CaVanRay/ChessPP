@@ -35,7 +35,7 @@ int main()
         horizontalOutlines(boardSize);
         for (int s = 0; s < boardSize; s++) {
             for (int t = 0; t < 3; t++) {
-                spaces(boardSize, t);
+                spaces(boardSize, s, t);
             }
             horizontalOutlines(boardSize);
         }
