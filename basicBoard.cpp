@@ -21,7 +21,7 @@ void horizontalOutlines(const int& edges) {
 
 void spaces(const int& spaces, const int& row) {
     std::cout << "|";
-    for(){
+    for(int i = 0; i < spaces; i++){
         
     }
     std::cout << std::endl;
