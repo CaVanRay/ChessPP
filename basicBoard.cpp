@@ -19,7 +19,7 @@ void horizontalOutlines(const int& edges) {
     std::cout << std::endl;
 }
 
-void spaces(const int& spaces, const int& row) {
+void spaces(const int& spaces, const int& rowsInSpace) {
     std::cout << "|";
     for(int i = 0; i < spaces; i++){
         
