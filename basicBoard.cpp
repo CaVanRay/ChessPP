@@ -21,7 +21,7 @@ void horizontalOutlines(const int& edges) {
 
 void spaces(const int& spaces, const int& row) {
     std::cout << "|";
-    if(evenLine){
+    for(){
         
     }
     std::cout << std::endl;
