@@ -23,6 +23,11 @@ void spaces(const int& spaces, const int& rowInBoard, const int& rowInSpace) {
     bool spaceIsRed = true;
     std::cout << "|";
     for(int i = 0; i < spaces; i++){
+        if(rowInBoard % 2 == 0){
+            spaceIsRed = true;
+        }else{
+            spaceIsRed = false;
+        }
         
     }
     std::cout << std::endl;
