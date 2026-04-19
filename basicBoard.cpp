@@ -14,32 +14,34 @@ without having to hard code every fucking space
 void horizontalOutlines(const int& edges) {
     std::cout << "+";
     for (int i = 0; i < edges; i++) {
-        std::cout << "-----+";
+        std::cout << "-------+";
     }
     std::cout << std::endl;
 }
 
 void spaces(const int& spaces, const int& rowInBoard, const int& rowInSpace) {
-    
+
     bool spaceIsRed = true;
     std::cout << "|";
-    
-    if(rowInBoard % 2 == 0){
+
+    if (rowInBoard % 2 == 0) {
         spaceIsRed = true;
-    }else{
+    }
+    else {
         spaceIsRed = false;
     }
-    
-    for(int i = 0; i < spaces; i++){
 
-        if(spaceIsRed){
-            cout << "*****|";
+    for (int i = 0; i < spaces; i++) {
+
+        if (spaceIsRed) {
+            std::cout << "///////|";
             spaceIsRed = false;
-        }else{
-            cout << "     |";
+        }
+        else {
+            std::cout << "       |";
             spaceIsRed = true;
         }
-        
+
     }
     std::cout << std::endl;
 }
