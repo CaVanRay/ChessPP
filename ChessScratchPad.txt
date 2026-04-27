@@ -2,16 +2,25 @@
 Ok, I need a place to clear my head and get all my ideas for chess out in an organized way
 
 //**********************************************************************************************
-Board:
+Board: 
+
+  - I have a basic method of displaying a board on the console but it currently builds the entire board at once
+  I have a way for it to check if a certain location should display a peice or not but its very basic an manually
+  set before the software is compiled
 
 
 //**********************************************************************************************
 Pieces:
 
+  - I keep going back and forth on this, but I think the best move is to create a base class called "piece" and 
+  then expand into different classes for the different pieces 
+
+  - each individual piece class can track their own possible moves, but their current locations can be tracked
+  in the database
 
 //**********************************************************************************************
 (current locations, turns, basically any information about what's going on)
-Data:
+Database:
 
 
 //**********************************************************************************************
