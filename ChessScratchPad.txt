@@ -10,3 +10,5 @@ Pieces:
 
 
 //**********************************************************************************************
+(current locations, turns, basically any information about what's going on)
+Data:
