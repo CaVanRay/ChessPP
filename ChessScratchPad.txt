@@ -22,5 +22,8 @@ Pieces:
 (current locations, turns, basically any information about what's going on)
 Database:
 
+  - To start with this will be a really simple system for tracking piece ID's and current locations, but eventually
+  I want to expand this part of the program to also include validations & maybe a rudimentary computer player that
+  can play against you
 
 //**********************************************************************************************
