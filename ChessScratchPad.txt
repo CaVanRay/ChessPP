@@ -27,3 +27,5 @@ Database:
   can play against you
 
 //**********************************************************************************************
+
+I need to map this out on paper
