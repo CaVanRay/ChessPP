@@ -28,4 +28,4 @@ Database:
 
 //**********************************************************************************************
 
-I need to map this out on paper
+I need to map this out on paper, I'm having trouble visualizing how this might work best
