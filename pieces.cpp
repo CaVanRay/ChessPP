@@ -17,3 +17,7 @@ class piece {
 public:
 int xCoordinate, yCoordinate;
 };
+
+class pawn : public piece {
+
+};
