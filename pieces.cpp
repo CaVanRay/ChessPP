@@ -15,13 +15,15 @@ possible movements
 *****************************************************/
 class piece {
 public:
-int xCoordinate, yCoordinate;
-string color;
+    int xCoordinate, yCoordinate;
+    string color;
 
     virtual bool validMoveCheck(){}
 
 };
 
 class pawn : public piece {
+
+    bool validMoveCheck(int& possX, int& possY) override {}
 
 };
