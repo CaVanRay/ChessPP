@@ -2,6 +2,7 @@
 Date: 08/29/2026
 Title: pieces.cpp
 Author: Cavan Ray Theiss
+Description:
 
 *****************************************************/
 class piece {
