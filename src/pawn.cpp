@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "piece.hpp"
 
 class pawn : public piece {
 public:
