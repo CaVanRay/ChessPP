@@ -8,5 +8,5 @@ more for practicing classes than anything else.
 
 *****************************************************/
 class piece {
-
+public;
 };
