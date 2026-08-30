@@ -19,7 +19,7 @@ possible movements
 class piece {
 public:
     int xCoordinate, yCoordinate;
-    string color;
+    std::string color;
 
     virtual bool validMoveCheck(int& possX, int& possY) = 0;
 
