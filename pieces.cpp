@@ -14,7 +14,7 @@ possible movements
 
 *****************************************************/
 #include <iostream>
-
+#include <string>
 
 class piece {
 public:
