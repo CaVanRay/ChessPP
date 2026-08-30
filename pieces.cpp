@@ -26,13 +26,13 @@ public:
 };
 
 class pawn : public piece {
-
+public:
     bool validMoveCheck(int& possX, int& possY) override {}
 
 };
 
 class rook : public piece {
-
+public:
     bool validMoveCheck(int& possX, int& possY) override {}
 
 };
