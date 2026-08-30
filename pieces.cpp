@@ -18,7 +18,7 @@ public:
     int xCoordinate, yCoordinate;
     string color;
 
-    virtual bool validMoveCheck(){}
+    virtual bool validMoveCheck(int& possX, int& possY) = 0;
 
 };
 
