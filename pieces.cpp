@@ -13,6 +13,9 @@ possible movements
 
 
 *****************************************************/
+#include <iostream>
+
+
 class piece {
 public:
     int xCoordinate, yCoordinate;
@@ -23,6 +26,12 @@ public:
 };
 
 class pawn : public piece {
+
+    bool validMoveCheck(int& possX, int& possY) override {}
+
+};
+
+class rook : public piece {
 
     bool validMoveCheck(int& possX, int& possY) override {}
 
