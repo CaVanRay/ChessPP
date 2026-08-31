@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <math>
 #include "piece.hpp"
 
 class bishop : public piece {
