@@ -6,7 +6,7 @@
 class rook : public piece {
 public:
     bool validMoveCheck(int& possX, int& possY) override {
-        if(std::abs(possX - xCoordinate) == std::abs(possY - yCoordinate)){
+        if((possX == xCoordinate)||(possY == yCoordinate)){
             return true;
         }else{
             return false;
