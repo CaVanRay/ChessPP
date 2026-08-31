@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include "piece.hpp"
+#include "rook.hpp"
 
 class rook : public piece {
 public:
