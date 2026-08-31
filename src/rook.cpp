@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <cmath>
 #include "piece.hpp"
 
 class rook : public piece {
