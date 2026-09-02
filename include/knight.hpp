@@ -1,7 +1,7 @@
 #pragma once
 #include "piece.hpp"
 
-class rook : public piece {
+class knight : public piece {
 public:
   bool validMoveCheck(int& possX, int& possY) override;
 };
