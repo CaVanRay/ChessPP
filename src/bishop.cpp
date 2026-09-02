@@ -3,9 +3,7 @@
 
 
 bool validMoveCheck(int& possX, int& possY) override {
-    if(std::abs(possX - xCoordinate) == std::abs(possY - yCoordinate)){
+    if(std::abs(possX - xCoordinate) == std::abs(possY - yCoordinate))
         return true;
-    }else{
-        return false;
-    }
+    return false;
 }
