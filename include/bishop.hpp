@@ -2,7 +2,7 @@
 #include "piece.hpp"
 
 class bishop : public piece {
-
+public:
 
 
 };
