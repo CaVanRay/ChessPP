@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include "piece.hpp"
+#include "king.hpp"
 
 class king : public piece {
 public:
