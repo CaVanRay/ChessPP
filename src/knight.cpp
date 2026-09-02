@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include "piece.hpp"
+#include "knight.hpp"
 
 class knight : public piece {
 public:
