@@ -1,4 +1,5 @@
 #include "bishop.hpp"
+#include <cmath>
 
 class bishop : public piece {
 public:
