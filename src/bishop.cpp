@@ -1,7 +1,4 @@
-#include <iostream>
-#include <string>
-#include <math>
-#include "piece.hpp"
+#include "bishop.hpp"
 
 class bishop : public piece {
 public:
