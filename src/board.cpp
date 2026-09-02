@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include "piece.hpp"
+#include "board.hpp"
 
 class board {
 public:
