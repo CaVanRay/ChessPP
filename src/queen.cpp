@@ -1,7 +1,7 @@
 #include "queen.hpp"
 
-class queen : public piece {
-public:
-    bool validMoveCheck(int& possX, int& possY) override {}
-
-};
+bool validMoveCheck(int& possX, int& possY) override {
+    if(()||())
+        return true;
+    return false;
+}
