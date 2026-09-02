@@ -1,4 +1,4 @@
-#pragam once
+#pragma once
 #include "piece.hpp"
 
 class pawn : public piece {
