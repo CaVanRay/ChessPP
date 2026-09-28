@@ -1,5 +1,10 @@
 # ChessPP
-I want to make a Chess game in C++ and you can't tell me not to
+---
+## I want to make a Chess game in C++ and you can't tell me not to
+Next To-Do:
+- [ ] Make a Board
+- [ ] Add pieces to Board
+- [ ] Make pieces on Board interactive
 
 
 Classes:
